@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Hng Internship</title>
+<style>
+p{
+font-family: Roboto;
+Font-style: Regular;
+Font-size: 12px;
+Line-height: 14px;
+background-image: url(Hng internship 4.0.jpg)
+Align: left;
+}
+
+#header{
+display: block;
+color: black;
+width: 100%;
+text-align: center;
+background: #C4C4C4;
+}
+
+table{
+position: absolute;
+width: 116px;
+height: 15px;
+}
+
+</style>
+<link href=".style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+
+<div id="header">
+    <img src="Folder/Hng Internship 4.0.JPEG"/>
+         </div>
+    <div ><h3>@
+    <?php
+	   date_default_timezone_set ('Africa/Nairobi');
+	   echo   date( "h:i:s a");
+	  ?>
+ </h3>
+ </div>
+<h2>Welcome to...</h2>
+<h1>HNG Internship 4</h1>
+ <p><?php echo date('l jS F, Y')
+     ?></p>
+    </body>
+</html>
